@@ -1,0 +1,30 @@
+.transactions {
+ width: 875px;
+ flex-basis: 33%;
+ margin-top: 40 px;
+}
+
+.transactions_titles {
+ font-size: 14px;
+ text-transform: uppercase;
+ height: 50px;
+ background-color: rgb(99, 197, 236);
+ color: white;
+}
+
+.transactions_list{
+ font-size: 13px;
+ text-align: center;
+ text-transform: capitalize;
+ height: 50px;
+}
+
+.transactions_item{
+height: 50px;
+}
+.transactions_item:nth-child(odd) {
+    background-color: whitesmoke;
+}
+.transactions_item:nth-child(even) {
+    background-color: rgb(209, 209, 209);
+}

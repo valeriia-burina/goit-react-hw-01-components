@@ -9,29 +9,29 @@ export const Profile = (
       
     
 <div className={css.profile}>
-  <div className={css.description}>
+  <div className={css.profile_description}>
     <img
       src={avatar}
       alt="User avatar"
-      className={css.avatar}
+      className={css.profile_avatar}
     />
-    <p className={css.name}>{username}</p>
-    <p className={css.tag}>@{tag}</p>
-    <p className={css.location}>{location}</p>
+    <p className={css.profile_name}>{username}</p>
+    <p className={css.profile_tag}>@{tag}</p>
+    <p className={css.profile_location}>{location}</p>
   </div>
 
-  <ul className={css.stats}>
-    <li>
-      <span className={css.label}>Followers</span>
-      <span className={css.quantity}>{followers}</span>
+  <ul className={css.profile_stats}>
+    <li className={css.profile_statItem}>
+      <span className={css.profile_label}>Followers</span>
+      <span className={css.profile_quantity}>{followers}</span>
     </li>
-    <li>
-      <span className={css.label}>Views</span>
-      <span className={css.quantity}>{views}</span>
+    <li className={css.profile_statItem}>
+      <span className={css.profile_label}>Views</span>
+      <span className={css.profile_quantity}>{views}</span>
     </li>
-    <li>
-      <span className={css.label}>Likes</span>
-      <span className={css.quantity}>{likes}</span>
+    <li className={css.profile_statItem}>
+      <span className={css.profile_label}>Likes</span>
+      <span className={css.profile_quantity}>{likes}</span>
     </li>
   </ul>
 </div>

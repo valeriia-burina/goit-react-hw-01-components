@@ -11,11 +11,11 @@ body {
   background-color: white;
 }
 
-.description {
+.profile_description {
   margin: auto;
 }
 
-img {
+.profile_avatar {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -24,31 +24,31 @@ img {
   margin-bottom: 35px;
 }
 
-.name {
+.profile_name {
   font-size: 17px;
   margin-bottom: 10px;
 }
 
-.tag {
+.profile_tag {
   font-size: 13px;
   margin-bottom: 10px;
   color: gray;
 }
 
-.location {
+.profile_location {
   font-size: 13px;
   margin-bottom: 32px;
   color: gray;
 }
 
-.stats {
+.profile_stats {
   list-style: none;
   display: flex;
   margin: auto;
   width: 250px;
 }
 
-li {
+.profile_statItem {
   border: 1px solid #E4E9F0;
   border-left: 0;
   flex-basis: 33.3333%;
@@ -56,13 +56,13 @@ li {
   background-color: #F3F6F9;
 }
 
-.label {
+.profile_label {
   font-size: 12px;
   margin-bottom: 5px;
   margin-top: 15px;
 }
 
-.quantity {
+.profile_quantity {
   font-size: 14px;
   font-weight: 700;
   margin: 0;

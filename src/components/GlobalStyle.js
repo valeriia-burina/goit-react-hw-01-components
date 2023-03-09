@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import 'modern-normalize';
+import 'normalize.css';
 
 export default createGlobalStyle`
 
