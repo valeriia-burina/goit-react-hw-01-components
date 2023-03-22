@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
-export const Statistics = ({ data }) => {
+export const Statistics = ({ title, data }) => {
   return (
     <section className={css.statistics}>
-      <h2 className={css.stat_title}>Upload stats</h2>
+      {title && <h2 className={css.stat_title}>{title}</h2>}
 
       <ul className={css.stat_statlist}>
         {data.map(data => (
